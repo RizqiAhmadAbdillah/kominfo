@@ -14,6 +14,13 @@
  Date: 22/09/2024 14:25:55
 */
 
+-- Drop the database if it exists
+DROP DATABASE IF EXISTS kominfo;
+
+-- Create the database
+CREATE DATABASE kominfo;
+
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
